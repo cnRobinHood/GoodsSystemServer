@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>admininfo</servlet-name>
+        <servlet-class>servlets.AdminInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admininfo</servlet-name>
+        <url-pattern>/admininfo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>clothinfo</servlet-name>
+        <servlet-class>servlets.ClothInfoServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>clothinfo</servlet-name>
+        <url-pattern>/clothinfo</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>repertory</servlet-name>
+        <servlet-class>servlets.RepertoryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>repertory</servlet-name>
+        <url-pattern>/repertory</url-pattern>
+    </servlet-mapping>
+
+</web-app>

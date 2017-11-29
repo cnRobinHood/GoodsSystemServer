@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="entities.ClothInfo" table="clothInfo">
+        <id name="ID"></id>
+        <property name="kinds"/>
+        <property name="lining"/>
+        <property name="season"/>
+        <property name="images"/>
+        <property name="stars"/>
+        <property name="size"/>
+    </class>
+    <class name="entities.AdminInfo" table="adminInfo">
+        <id name="username"></id>
+        <property name="foucs"/>
+        <property name="phoneNum"/>
+        <property name="psword"/>
+    </class>
+    <class name="entities.Repertory" table="repertory">
+        <id name="id"></id>
+        <property name="addr"/>
+        <property name="count"/>
+        <property name="size"/>
+    </class>
+
+
+</hibernate-mapping>
